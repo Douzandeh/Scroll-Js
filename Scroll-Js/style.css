@@ -1,0 +1,28 @@
+.scroll,
+.scroll2{
+  background-image: url(./circle-up-regular.svg);
+  background-color: rgb(0 253 206);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: auto !important;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.scroll2{
+  background-color: green;
+  left: 20px;
+}
+
+.scroll.show,
+.scroll2.show {
+  cursor: pointer !important;
+  opacity: 1;
+}
